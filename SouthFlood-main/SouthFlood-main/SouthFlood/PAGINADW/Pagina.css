@@ -1,0 +1,169 @@
+@charset "UTF-8";
+
+html,body{
+     height: 100%;
+}
+
+
+body{
+    background:
+
+    linear-gradient(
+        rgba(255,255,255,0.7),
+
+        rgba(126,163,255,0.7)
+    ),
+    url("https://i.ytimg.com/vi/k4Lgg5OTshA/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLCi2R1G5iFI9odXPvhSrbuA0nT0tA");
+
+    background-attachment: fixed;
+
+    background-size: cover;
+
+    background-position: center;
+
+    overflow: hidden;   
+    
+}
+/* ----------------------inputs---------------*/
+
+
+
+.input{
+
+ 
+    border: none !important;
+
+    border-radius: 30px !important;
+
+    background-color:rgb(64, 118, 255) !important;
+
+    font-size: 16px !important;
+
+    width: 500px !important; 
+
+    height: 60px !important;
+  
+    box-shadow: 0 10px 20px rgb(121, 159, 255) !important;
+
+    color: #ffffff!important;
+
+    transition: all 0.3s ease;
+
+    font-size: 30px !important;
+
+}
+
+.input:hover{
+
+    background-color: #ffffff !important;
+
+    color: rgb(64, 118, 255) !important;
+
+     transform: translatex(-50%) scale(1.1)!important ;
+
+    box-shadow: 0 10px 20px rgb(255, 249, 249) !important;
+}
+
+#botaoca{
+
+
+    position: absolute;
+
+    justify-content: center;
+
+     left: 30%;
+
+    margin-top: 20%;
+
+    transform: translatex(-50%);
+}
+
+
+
+
+
+
+
+/*-------------------------- Alinha na pagina os inputs-------------*/
+
+    .input-field{
+     display: flex;
+
+      flex-direction: column;
+
+      align-items: center;
+
+     margin-top: 200px;
+}
+
+
+#Letreiro{
+
+   font-style: italic;
+
+    font-family: "Bebas Neue", sans-serif;
+
+    font-size: 100px;
+
+    color: rgb(0, 0, 0); 
+
+       position: absolute;
+
+    justify-content: center;
+
+    align-items: center;
+
+    line-height: 80px; 
+
+    margin: 0 auto;
+
+     left: 30%;
+
+    margin-top: -90px;
+
+    transform: translatex(-50%);
+}
+
+#Letreiro2{
+
+   font-style: italic;
+
+    font-family: "Bebas Neue", sans-serif;
+
+    font-size: 100px;
+
+    color: rgb(64, 118, 255); 
+    
+       position: absolute;
+
+    justify-content: center;
+
+    align-items: center;
+
+    margin: 0 auto;
+
+     left: 26%;
+
+    line-height: 80px;
+
+    margin-top: 70px;
+
+    transform: translatex(-50%);
+}
+
+#logomeio {
+
+    width: 900px;
+
+    position: absolute;
+
+    justify-content: center;
+
+    top: 60%;
+    left: 110%;
+    transform:translate(-110%,-60%);
+
+
+
+
+}

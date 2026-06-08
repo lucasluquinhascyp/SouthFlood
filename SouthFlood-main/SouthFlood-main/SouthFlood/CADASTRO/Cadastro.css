@@ -1,0 +1,159 @@
+@charset "UTF-8";
+body{
+    background:
+
+    linear-gradient(
+        rgba(255,255,255,0.7),
+        rgba(126,163,255,0.7)
+    ),
+    url("https://www.vaticannews.va/content/dam/vaticannews/multimedia/2023/11/20/image00002aem.jpg/_jcr_content/renditions/cq5dam.thumbnail.cropped.1500.844.jpeg");
+
+    background-attachment: fixed;
+
+    background-size: cover;
+
+    background-position: center;
+    
+    overflow: hidden;
+}
+/* ----------------------inputs---------------*/
+.input{
+     border: none !important;
+
+    border-radius: 15px !important; /* Bordinha redonda*/
+
+    padding: 12px !important; /* distancia texto caixa*/
+
+    background-color: #ffffff !important;
+
+    font-size: 16px !important;
+
+       width: 400px !important; 
+
+       height: 40px !important;
+
+    align-items: center !important;
+       
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1) !important;
+}
+/*-------------------------- inputs submits-------------*/
+
+.submit:hover{
+
+    background-color: #ffffff !important;
+
+    color: rgb(64, 118, 255) !important;
+
+    transform: scale(1.1);
+
+    box-shadow: 0 10px 20px rgb(255, 249, 249) !important;
+}
+
+.submit{
+
+    display: flex;        /* vai ativar o Flexbox */
+
+    justify-content: center;      /* centraliza o texto horizontalmente */
+
+    align-items: center;
+
+    border: none !important;
+
+    border-radius: 30px !important;
+
+    background-color:rgb(64, 118, 255) !important;
+
+    font-size: 16px !important;
+
+    width: 500px !important; 
+
+    height: 60px !important;
+
+    align-items: center !important;
+       
+    box-shadow: 0 10px 20px rgb(121, 159, 255) !important;
+
+    color: #ffffff!important;
+
+    transition: all 0.3s ease;
+
+    font-size: 30px !important;
+
+}
+
+
+
+
+
+
+/*-------------------------- Alinha na pagina os inputs-------------*/
+
+    .input-field{
+
+     display: flex;
+
+      flex-direction: column;
+
+      align-items: center;
+
+     margin-top: 200px;
+}
+
+.titulo{
+
+      position: absolute;
+
+    justify-content: center;
+
+    align-items: center;
+
+      margin: 0 auto;
+
+      left: 50%;
+
+      transform:translatex(-50%);
+}
+#Letreiro{
+   font-style: italic;
+
+    font-family: "Bebas Neue", sans-serif;
+
+    font-size: 100px;
+
+    color: rgb(64, 118, 255); 
+
+    position: absolute;
+
+    justify-content: center;
+
+      left: 50%;
+
+      margin-top:-150px;
+
+      transform:translatex(-50%);
+
+}
+
+.quadrado-fixo {
+    position:absolute;
+
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -20%); /* O primeiro valor é X, o segundo é Y */
+
+    justify-content: center;
+
+    width: 600px;
+
+    height: 800px;
+
+  background:
+
+    linear-gradient(
+        rgba(64, 118, 255,0.9),
+        rgb(255, 255, 255)
+    );
+
+    border-radius: 40px;
+}
